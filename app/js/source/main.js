@@ -98,7 +98,6 @@
     }
   }
 
-// this may not work as is.
   function generateDead(jQueryInitialSelection, jQueryTargetSelection){
     var avgX = average(jQueryInitialSelection.data('positionx'), jQueryTargetSelection.data('positionx'));
     var avgY = average(jQueryInitialSelection.data('positiony'), jQueryTargetSelection.data('positiony'));
@@ -187,7 +186,6 @@
       initialSelection.removeClass(playerClass);
       initialSelection.removeClass('current occupied');
       $('td.valid.possible').removeClass('possible');
-      //removeCurrent();
     }// end swapPiece
   }
 
